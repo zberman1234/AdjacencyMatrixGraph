@@ -7,7 +7,7 @@ public class Graph {
 
   /**
   * Graph constructor turns a Set of edges and nodes into an Adjacency Matrix graph
-  * @param nodes 
+  * @param nodes the Set of nodes to be in the Graph
   * 
   **/
   public Graph(Set<Node> nodes, Set<Edge> edges) {

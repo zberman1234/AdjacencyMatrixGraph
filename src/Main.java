@@ -38,50 +38,6 @@ public class Main {
     for(Node n : Adj6) {
       System.out.println(n);
     }
-
-    
-
-    // HashSet<Node> girls = new HashSet<Node>();
-    // HashSet<Edge> friends = new HashSet<Edge>();
-    // girls.add(new Vnode("Becky"));
-    // girls.add(new Vnode("Jane"));
-    // girls.add(new Vnode("Sarah"));
-    // girls.add(new Vnode("Tracy"));
-
-    // for (Node g : girls) {
-    //   for (Node gg : girls) {
-    //     if (createEdgeRand()) {
-    //       friends.add(new Edge(g, gg));
-    //     }
-    //   }
-    // }
-
-    // Graph gGraph = new Graph(girls, friends);
-
-    // System.out.println(gGraph);
-
-  //   HashSet<Node> cities = new HashSet<Node>();
-  //   HashSet<Edge> roads = new HashSet<Edge>();
-  //   City sf = new City("Bay", 20);
-  //   City nyc = new City("Big Apple", 24);
-  //   City gb = new City("Cheese", 10);
-  //   City la = new City("Champs", 21);
-  //   cities.add(new Vnode(sf));
-  //   cities.add(new Vnode(nyc));
-  //   cities.add(new Vnode(gb));
-  //   cities.add(new Vnode(la));
-
-  //   for (Node g : cities) {
-  //     for (Node gg : cities) {
-  //       if (createEdgeRand()) {
-  //         roads.add(new Edge(g, gg));
-  //       }
-  //     }
-  //   }
-
-  //   Graph cGraph = new Graph(cities, roads);
-  //   System.out.println(cGraph);
-
   }
 
   public static boolean createEdgeRand() {
