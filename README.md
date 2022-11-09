@@ -1,18 +1,13 @@
-## Getting Started
+# Adjacency Matrix Graph
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Introduction
+This implementation of a Graph is represented by an adjacency matrix. It is not formed by linkage between the Node and Edge classes. 
 
-## Folder Structure
+### Matrix Representation
+Indexes of the rows and columns of the matrix represent the Id's of a node. A given coordinate, an intersction of a row r and a column c, represents whether an edge extends from the Node (Id=r) to the Node (Id=c).
 
-The workspace contains two folders by default, where:
+### Benefits
+The benefit of this representation as opposed to Node & Edge linkage is that it takes a constant time to determine if an edge exists between two nodes.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Author
+Zach Berman
