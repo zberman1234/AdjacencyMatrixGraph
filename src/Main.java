@@ -22,7 +22,7 @@ public class Main {
       Node inode = new Node(i);
       Nodes.add(inode);
       for (Node n : Nodes) {
-        if (createEdgeRand()) {
+        if (createEdgeRand(0.4)) {
           Edge ijedge = new Edge(inode, n);
           Edges.add(ijedge);
         }
@@ -40,8 +40,14 @@ public class Main {
     }
   }
 
-  public static boolean createEdgeRand() {
-    if (Math.random() > 0.6)
+
+  /**
+   * Generates a boolean whose value depends on given odds
+   * @param odds the chances that the method returns true
+   * @return true or false, based on odds
+   */
+  public static boolean createEdgeRand(double odds) {
+    if (Math.random() < odds)
       return true;
     return false;
   }
